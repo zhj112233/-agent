@@ -16,7 +16,7 @@
 
 ## 快速开始
 ### Docker 部署
-#### 1. 配置环境变量
+ 1. 配置环境变量
 **必须**通过环境变量传入 DeepSeek API Key，严禁写在命令行历史或配置文件中。
 ```bash
 # Windows PowerShell
@@ -24,7 +24,8 @@ $env:DEEPSEEK_API_KEY="你的DeepSeek_API_Key"
 
 # macOS / Linux
 export DEEPSEEK_API_KEY="你的DeepSeek_API_Key"
-#### 2. 构建 Docker 镜像
+
+ 2. 构建 Docker 镜像
 在项目根目录（包含 Dockerfile 的文件夹）执行：
 bash
 运行
